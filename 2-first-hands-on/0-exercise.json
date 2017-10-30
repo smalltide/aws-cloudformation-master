@@ -1,0 +1,27 @@
+{
+  "course": "AWS Lambda",
+  "instructor": "Stephane Maarek",
+  "instructor-full": {
+    "first-name": "Stephane",
+    "last-name": "Maarek",
+    "awesomeness-level": 9000
+  },
+  "sections-list": [
+    "Introduction",
+    "Deploying your first function",
+    "Learning AWS Lambda in depth",
+    "Real world examples"
+  ],
+  "lectures": [
+    {
+      "lecture-id": 1,
+      "lecture-name": "intro",
+      "lecture-length": "5:03"
+    },
+    {
+      "lecture-id": 2,
+      "lecture-name": "aws lambda",
+      "lecture-length": "10:47"
+    }
+  ]
+}
