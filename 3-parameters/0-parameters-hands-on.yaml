@@ -42,7 +42,7 @@ Parameters:
   DbSubnetIpBlocks:
     Description: "Comma-delimited list of three CIDR blocks"
     Type: CommaDelimitedList
-    Default: "10.0.48.0/24, 10.0.112.0/24, 10.0.176.0/24"
+    Default: "172.31.32.0/24, 172.31.33.0/24, 172.31.34.0/24"
 
 Resources:
   MyEC2Instance:
@@ -51,7 +51,7 @@ Resources:
       #we reference the InstanceType parameter
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyName
-      ImageId: "ami-a4c7edb2"
+      ImageId: "ami-21815747"
       # here we reference an internal CloudFormation resource
       SubnetId: !Ref DbSubnet1
 
