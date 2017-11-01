@@ -4,4 +4,4 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       AccessControl: PublicRead
-      BucketName: "insert-some-random-string-here-123456"
+      BucketName: "update-s3-cf"
