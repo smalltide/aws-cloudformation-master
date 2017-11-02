@@ -69,3 +69,11 @@ Skills
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions1.png "conditions1")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions2.png "conditions2")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions3.png "conditions3")
+
+
+CloudFormation Metadata
+```
+  > review 0-interface.yaml
+```
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/metadata1.png "metadata1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/metadata2.png "metadata2")
