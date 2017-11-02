@@ -23,7 +23,7 @@ Mappings:
       AMI: "ami-10918173"
       TestAz: "ap-southeast-2a"
     ap-northeast-1:
-      AMI: "ami-e21cc38c"
+      AMI: "ami-21815747"
       TestAz: "ap-northeast-1a"
 Parameters:
   EnvType:

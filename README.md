@@ -17,6 +17,7 @@ Skills
 * [CF Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html) 
 * [AWS CF Resource Types](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) 
 * [AWS CF Pseudo Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html) 
+* [AWS CF Condition Functions](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-conditions.html) 
 
 ### CloudFormation Building Blocks
 ```
@@ -58,4 +59,13 @@ Skills
   > review 1-reference-ssh-security-group.yaml
 ```
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/output1.png "output1")
-![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/output1.png "output1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/output2.png "output2")
+
+
+### CloudFormation Conditions
+```
+  > review 0-conditions.yaml
+```
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions1.png "conditions1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions2.png "conditions2")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions3.png "conditions3")
