@@ -50,3 +50,12 @@ Skills
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/mappings1.png "mappings1")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/mappings2.png "mappings2")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/mappings3.png "mappings3")
+
+
+### CloudFormation Outputs
+```
+  > review 0-create-ssh-security-group.yaml
+  > review 1-reference-ssh-security-group.yaml
+```
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/output1.png "output1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/output1.png "output1")

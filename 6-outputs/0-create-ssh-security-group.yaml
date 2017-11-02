@@ -8,17 +8,17 @@ Resources:
       SecurityGroupIngress:
         # we have a lot of rules because it's a perfect security group
         # finance team network
-      - CidrIp: 10.0.48.0/24
+      - CidrIp: 172.31.1.0/24
         FromPort: 22
         IpProtocol: tcp
         ToPort: 22
         # marketing team network
-      - CidrIp: 10.0.112.0/24
+      - CidrIp: 172.31.2.0/24
         FromPort: 22
         IpProtocol: tcp
         ToPort: 22
         # application team support network
-      - CidrIp: 10.0.176.0/24
+      - CidrIp: 172.31.3.0/24
         FromPort: 22
         IpProtocol: tcp
         ToPort: 22
