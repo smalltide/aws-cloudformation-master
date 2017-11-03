@@ -5,7 +5,7 @@
   },
   {
     "ParameterKey": "KeyName",
-    "ParameterValue": "udemy"
+    "ParameterValue": "aws-ap"
   },
   {
     "ParameterKey": "SSHLocation",

@@ -8,8 +8,9 @@ pip install awscli --upgrade --user
 aws configure --profile cf-course
 
 # we create the cloudformation template
-aws cloudformation create-stack --stack-name example-cli-stack --template-body file://0-sample-template.yaml --parameters file://0-parameters.json --profile cf-course --region us-east-1
+aws cloudformation create-stack --stack-name example-cli-stack --template-body file://0-sample-template.yaml --parameters file://0-parameters.json --profile cf-course --region ap-northeast-1
 
+aws cloudformation create-stack --stack-name example-cli-stack --template-body file://0-sample-template.yaml --parameters file://0-parameters.json
 # some options:
 # [--disable-rollback | --no-disable-rollback]
 # [--rollback-configuration <value>]

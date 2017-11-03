@@ -14,10 +14,16 @@ Skills
 7. AWS S3
 
 * [json2yaml](https://www.json2yaml.com)  
+* [Amazon Web Services - Labs](https://github.com/awslabs)  
 * [CF Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html) 
 * [AWS CF Resource Types](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) 
 * [AWS CF Pseudo Parameters](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html) 
 * [AWS CF Condition Functions](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-conditions.html) 
+* [AWS CF Templates](https://github.com/awslabs/aws-cloudformation-templates) 
+* [AWS CF WordPress Single Instance](https://github.com/awslabs/aws-cloudformation-templates/blob/master/aws/solutions/WordPress_Single_Instance.yaml) 
+* [Python Create AWS CloudFormation](https://github.com/cloudtools/troposphere) 
+* [Custom Resources with AWS Lambda](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/walkthrough-custom-resources-lambda-lookup-amiids.html) 
+
 
 ### CloudFormation Building Blocks
 ```
@@ -96,3 +102,19 @@ Skills
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn11.png "cfn11")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn12.png "cfn12")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn13.png "cfn13")
+
+
+### CF Advanced Concepts
+```
+  > review 10-advanced
+  > cd 10-advanced
+  > aws cloudformation create-stack --stack-name example-cli-stack --template-body file://0-sample-template.yaml --parameters file://0-parameters.json
+  > aws cloudformation delete-stack --stack-name example-cli-stack
+  >
+  > pip3 install troposphere
+  > python3 1-troposphere-example.py 
+```
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/deletion_policy.png "deletion_policy")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/lambda-custom-resource.png "lambda-custom-resource")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cf-practice1.png "cf-practice1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cf-practice2.png "cf-practice2")
