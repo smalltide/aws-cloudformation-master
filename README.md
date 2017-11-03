@@ -71,9 +71,28 @@ Skills
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/conditions3.png "conditions3")
 
 
-CloudFormation Metadata
+### CloudFormation Metadata
 ```
   > review 0-interface.yaml
 ```
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/metadata1.png "metadata1")
 ![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/metadata2.png "metadata2")
+
+
+### CFN Init and EC2 User Data
+```
+  > review 9-cfn-init
+```
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn1.png "cfn1")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn2.png "cfn2")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn3.png "cfn3")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn4.png "cfn4")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn5.png "cfn5")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn6.png "cfn6")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn7.png "cfn7")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn8.png "cfn8")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn9.png "cfn9")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn10.png "cfn10")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn11.png "cfn11")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn12.png "cfn12")
+![alt text](https://github.com/smalltide/aws-cloudformation-master/blob/master/img/cfn13.png "cfn13")
